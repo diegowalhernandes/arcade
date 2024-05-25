@@ -1,13 +1,33 @@
 <app-title></app-title>
 <div class="articles">
-    <div class="articles-main">
-        <app-big-card></app-big-card>
-    </div>
-    <div class="articles-others">
 
+    <div class="articles-main">
+        <app-big-card
+            photoCover="https://www.simplilearn.com/ice9/free_resources_article_thumb/recact_angular_vue.jpg"
+            cardTitle="Ola mundo"
+            cardDescription="Atirei o pau no gato mais o gato não morreu">
+
+        </app-big-card>
     </div>
+
+    <div class="articles-others">
+        <app-small-card 
+            photoCover="https://external-preview.redd.it/qW5sXZSe_7w815bbdJh3mwhzBxyEdK13fFyRs3_8ZdQ.jpg?auto=webp&s=6611d9c403cb948d1caf33e595f129bd18d745e3" 
+            cardTitle="Angular">
+
+        </app-small-card>
+
+        <app-small-card 
+            photoCover="https://kinsta.com/pt/wp-content/uploads/sites/3/2023/04/react-must-be-in-scope-when-using-jsx-1536x768.jpg" 
+            cardTitle="React">
+
+        </app-small-card>
+
+        <app-small-card 
+            photoCover="https://belenos.me/media/2021-05-vuejs.webp" 
+            cardTitle="Vue">
+
+        </app-small-card>
+    </div>   
 </div>
-<div>
-    <app-small-card></app-small-card>
-</div>
-<p>home works!</p>
+

@@ -1,0 +1,12 @@
+.small-card{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.small-card-title{
+    padding: 20px;
+
+}
+.small-card-description{
+    padding: 20px;
+}
