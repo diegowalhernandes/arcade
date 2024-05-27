@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Ajuste conforme necessário */
+}
+
+.logo {
+    flex: 1;
+    text-align: left;
+}
+
+.menu {
+    flex: 2;
+    text-align: right;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.menu ul li {
+    display: inline;
+    margin-left: 15px; /* Espaçamento entre os itens do menu */
+}
+
+.menu ul li:first-child {
+    margin-left: 0; /* Remove o espaço antes do primeiro item */
+}
