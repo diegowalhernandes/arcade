@@ -1,86 +1,23 @@
-/* Estilo global */
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #121212;
-    color: #e0e0e0;
-  }
-  
-  .content-cover {
-    width: 80%;
-    margin: 0 auto;
-    background-color: #1e1e1e;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  /* Cabeçalho do blog */
-  .blog-header {
-    text-align: center;
-    border-bottom: 1px solid #333;
-    padding-bottom: 10px;
-  }
-  
-  .blog-title {
-    margin: 0;
-    font-size: 2.5em;
-    color: #ffffff;
-  }
-  
-  .blog-description {
-    font-size: 1.2em;
-    color: #aaaaaa;
-  }
-  
-  /* Postagem do blog */
-  .blog-post {
-    margin-top: 20px;
-  }
-  
-  .post-title {
-    margin-top: 0;
-    font-size: 2em;
-    color: #ffffff;
-  }
-  
-  .post-meta {
-    font-size: 0.9em;
-    color: #777777;
-    margin-bottom: 20px;
-  }
-  
-  .post-content {
-    font-size: 1.1em;
-    color: #e0e0e0;
-  }
-  
-  .post-content p {
-    margin-bottom: 20px;
-  }
-  
-  .post-image {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 20px 0;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  /* Rodapé do blog */
-  .blog-footer {
-    text-align: center;
-    padding: 10px 0;
-    border-top: 1px solid #333;
-    margin-top: 20px;
-  }
-  
-  .blog-footer p {
-    margin: 0;
-    font-size: 0.9em;
-    color: #777777;
-  }
-  
+.blog {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente o conteúdo do contêiner blog */
+  align-items: center; /* Centraliza verticalmente o conteúdo do contêiner blog */
+  height: 100vh; /* Faz com que o contêiner ocupe a altura total da viewport */
+}
+
+.banner {
+  width: 800px; /* Define a largura do contêiner banner */
+  text-align: center; /* Centraliza o texto dentro do contêiner banner */
+  margin: 0 auto; /* Centraliza o contêiner banner horizontalmente */
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+.title, .description {
+  margin: 20px 0;
+}

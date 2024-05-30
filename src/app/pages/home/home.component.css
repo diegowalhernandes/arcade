@@ -1,4 +1,51 @@
-.articles{
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .articles {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  .articles-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .articles-others {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .app-big-card.app-small-card {
+    max-width: 800px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .articles {
+      flex-direction: row;
+      align-items: flex-start;
+    }
     
-}
+    .app-small-card {
+      max-width: calc(100% - 40px);
+    }
+  }
+  
