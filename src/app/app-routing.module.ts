@@ -5,6 +5,7 @@ import { ContentComponent } from './pages/content/content.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ServiceComponent } from './pages/service/service.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { CardComponent } from './components/card/card.component';
 
 const routes: Routes = [
   {
@@ -26,7 +27,12 @@ const routes: Routes = [
   {
     path: 'contact',
     component:ContactComponent
+  },
+  {
+    path:'card',
+    component:CardComponent
   }
+  
 ];
 
 @NgModule({

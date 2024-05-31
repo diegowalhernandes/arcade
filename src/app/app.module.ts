@@ -12,6 +12,9 @@ import { ContentComponent } from './pages/content/content.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ServiceComponent } from './pages/service/service.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { CardComponent } from './components/card/card.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,10 +28,13 @@ import { ContactComponent } from './pages/contact/contact.component';
     AboutComponent,
     ServiceComponent,
     ContactComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
